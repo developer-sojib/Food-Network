@@ -2,16 +2,12 @@
     margin: 0;
     padding: 0;
 }
-
 body{
     font-family: 'Poppins', sans-serif;
 }
 span{
     color: coral;
 }
-
-
-
 /*header-area-css*/
 section.header {
     display: flex;
@@ -46,8 +42,6 @@ section.header {
     display: inline-block;
     line-height: 1;
 }
-
-
 /*hero-area-css*/
 section.hero{
     display: flex;
@@ -67,7 +61,6 @@ section.hero{
     line-height: 1.5;
     margin-bottom: 40px;
 }
-
 .hero-right img{
     width: 100%;
 }
@@ -81,9 +74,6 @@ a.btn-primary {
     font-size: 14px;
     box-shadow: -2px 4px 12px 3px #8d8585d9;
 }
-
-
-
 /*about-area-css*/
 section.about{
     display: flex;
@@ -105,14 +95,13 @@ section.about{
     font-size: 40px;
     color: #0000009e;
     margin-top: 60px;
+    margin-bottom: 20px;
 }
-
 .about-right p{
     color: #8b8787;
     line-height: 1.5;
     margin-bottom: 90px;
 }
-
 /*card-area-css*/
 section.card{
     display: flex;
@@ -138,7 +127,6 @@ section.card{
     box-shadow: 10px -10px 35px 11px #ddd;
     border-radius: 20px;
 }
-
 /*counter-area-css*/
 .counter {
     display: flex;
@@ -159,7 +147,6 @@ section.card{
 .counter1 p {
     color: #8b8787;
 }
-
 /*tests-area-css*/
 .test-area{
     text-align: center;
@@ -184,14 +171,6 @@ section.tests{
     width: 80%;
     margin-bottom: 20px;
 }
-
-
-
-
-
-
-
-
 /*footer-area-css*/
 footer{
     background-color: rgb(12, 13, 22);

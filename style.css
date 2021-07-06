@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -7,10 +12,11 @@ span{
 
 
 
-
+/*header-area-css*/
 section.header {
     display: flex;
     border-bottom: 2px solid #ece8e8;
+    padding: 20px;
 }
 .header-left {
     width: 50%;
@@ -19,10 +25,30 @@ section.header {
     margin-left: 25px;
     font-size: 25px;
 }
+.header-right{
+    text-align: right;
+    width: 50%;
+}
+.main-menu ul {
+    list-style: none;
+}
+.main-menu ul li {
+    display: inline-block;
+    margin-left: 45px;
+}
+.main-menu ul li a {
+    font-size: 16px;
+    color: #343434;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 0;
+    display: inline-block;
+    line-height: 1;
+}
 
 
-
-
+/*hero-area-css*/
 section.hero{
     display: flex;
     margin-bottom: 100px;
@@ -58,10 +84,11 @@ a.btn-primary {
 
 
 
-
+/*about-area-css*/
 section.about{
     display: flex;
     background-image: url(./img/shapes/7.png);
+    margin-bottom: 100px;
 }
 .about-left{
     width: 50%;
@@ -86,26 +113,96 @@ section.about{
     margin-bottom: 90px;
 }
 
-
-
-
-
-
-
-.main-menu ul {
-    list-style: none;
+/*card-area-css*/
+section.card{
+    display: flex;
+    margin-bottom: 100px;
 }
-.main-menu ul li {
-    display: inline-block;
-    margin-left: 45px;
+.card1 {
+    width: 30%;
+    margin-left: 2.5%;
 }
-.main-menu ul li a {
+.card1 img{
+    width: 100%;
+}
+.card1 h2{
+    font-size: 26px;
+}
+.card1 p{
     font-size: 16px;
-    color: #343434;
-    font-weight: 600;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    padding: 10px 0;
-    display: inline-block;
-    line-height: 1;
+    line-height: 1.5;
+    color: #8b8787;
 }
+.cover {
+    padding: 20px;
+    box-shadow: 10px -10px 35px 11px #ddd;
+    border-radius: 20px;
+}
+
+/*counter-area-css*/
+.counter {
+    display: flex;
+    width: 70%;
+    margin-left: 12%;
+    margin-bottom: 80px;
+    padding: 50px;
+    box-shadow: -2px 5px 15px 16px #ddd;
+}
+.counter1{
+    width: 30%;
+    text-align: center;
+}
+.counter1 h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.counter1 p {
+    color: #8b8787;
+}
+
+/*tests-area-css*/
+.test-area{
+    text-align: center;
+}
+.test-area h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.test-area p{
+    margin-bottom: 40px;
+}
+
+section.tests{
+    display: flex;
+    margin-bottom: 80px;
+}
+.test1{
+    width: 30%;
+    margin-left: 4.5%;
+}
+.test1 img{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/*footer-area-css*/
+footer{
+    background-color: rgb(12, 13, 22);
+    text-align: center;
+    padding: 100px 0;
+}
+footer h1{
+    margin-bottom: 20px;
+    color: gray;
+} 
+footer p{
+    color: white;
+}
+

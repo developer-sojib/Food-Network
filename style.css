@@ -45,7 +45,10 @@ section.header {
 /*hero-area-css*/
 section.hero{
     display: flex;
-    margin-bottom: 100px;
+    background-image: url(./img/shapes/frame3.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .hero-left{
     width: 50%;
@@ -114,13 +117,16 @@ section.card{
 .card1 img{
     width: 100%;
 }
-.card1 h2{
+.card1 h2 {
     font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 .card1 p{
     font-size: 16px;
     line-height: 1.5;
     color: #8b8787;
+    padding-bottom: 15px;
 }
 .cover {
     padding: 20px;
@@ -171,6 +177,43 @@ section.tests{
     width: 80%;
     margin-bottom: 20px;
 }
+/*special-food-area-css*/
+section.special{
+    margin-bottom: 80px;
+}
+section.special h1{
+    font-size: 35px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.special-lists {
+    display: flex;
+    margin-left: 20%;
+}
+.special1 h2 {
+    color: #0000009e;
+}
+.special1 {
+    width: 30%;
+}
+.list-1 {
+    width: 30%;
+    margin-top: 20px;
+    color: #000000c7;
+}
+
+.list-items {
+    display: flex;
+    margin-left: 22%;
+}
+
+
+
+
+
+
+
+
 /*footer-area-css*/
 footer{
     background-color: rgb(12, 13, 22);
